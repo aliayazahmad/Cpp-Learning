@@ -38,10 +38,42 @@
 //     return 0;
 // }
 
-#include <iostream>
+// #include <iostream>
 
+// int main() {
+//     std::cout << "Hello World";
+//     /* code */
+//     return 0;
+// }
+
+// #include <iostream>
+
+// int main() {
+//     int file_size = 100 ;
+//     double sales = 9.99;
+//     std::cout << file_size;
+//     /* code */
+//     return 0;
+// }
+
+
+// #include <iostream>
+
+// using namespace std;
+
+// int main() {
+//     int a = 2;
+//     int b = 1;
+//     int temp = a;
+//     a = b;
+//     b = temp;
+//     std::cout << a;
+//     return 0;
+// }
+
+#include <iostream>
 int main() {
-    std::cout << "Hello World";
-    /* code */
+    const double pi = 3.14;
     return 0;
+
 }
