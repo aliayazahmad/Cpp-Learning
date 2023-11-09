@@ -71,9 +71,81 @@
 //     return 0;
 // }
 
+// #include <iostream>
+// int main() {
+//     const double pi = 3.14;
+//     return 0;
+// }
+
+// int  main () {
+//     int file_size; // snak case
+//     int FileSize; // pascal case
+//     int fileSize; // camel case
+//     int iFileSize; // hungarian notation
+// }
+
+// int main() {
+//     int x = 10;
+//     int y = 3;
+//     int z = x + y;  // to get the answer in flotatoin we have to convert on of the in to double 
+//     std::cout << z;
+//     return 0;
+// }
+
+// int main() {
+//     int x = 10;   // adding ++ to any integer ot will add 1
+//     int y = x++; // x = 11, y = 10
+//     int z = ++x; // x = 11, z = 11 if don't apply first coode
+//     std::cout << y;
+//     return 0;
+// }
+
+// int main() {
+//     doubule x = 1 + 2 * 3;
+//     std::cout << x;
+//     return 0;
+// }
+
+// int main() {
+//     double x = 10;
+//     double y = 5;
+//     double z = (x + 10) / (3 * y);
+//     std::cout << z;
+//     return 0;
+// }
+
+// int main() {
+//     int x = 10;
+//     int y = 20;
+//     std::cout << "x = ";
+//     std::cout <<  x;
+//     std::cout << "x =" << x;
+//     std::cout << "y =" << y;
+//     std::cout <<"x =" << x << std::endl;
+//     std::cout << "x =" << x << std::endl
+//               << "y =" << y;
+//     return 0;
+// }
+
 #include <iostream>
+
+using namespace std;
+
 int main() {
-    const double pi = 3.14;
+    double sales = 95000;
+    cout << "Sales: $" << sales << endl;
+
+    const double statetaxrate = .04;
+    double statetax = sales * .04;
+    cout << "State Tax: $" << statetax << endl;
+
+    const double countytaxrate = .02;
+    double countytax = sales * .02;
+    cout << "State Tax: $" << countytax << endl;
+
+    double totaltax = statetax + countytax;
+    cout << "Total Tax: $" <<totaltax;
+
     return 0;
 
 }
