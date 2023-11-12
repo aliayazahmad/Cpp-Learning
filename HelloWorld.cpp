@@ -206,16 +206,71 @@
 //     return 0;
 // }
 
-#include <iostream>
+// #include <iostream>
+
+// using namespace std;
+
+// int main() {
+//     cout << "Enter Temperature in Fahrenheit: ";
+//     double Fahrenheit;
+//     cin >> Fahrenheit;
+//     double Celsius;
+//     Celsius = (Fahrenheit - 32)* 5/9;
+//     cout << "Temperature in Celsius: " << Celsius;
+//     return 0;
+// }
+
+// #include <iostream>
+// #include <cmath>
+
+// using namespace std;
+
+// int main() {
+//     double result = floor(1.2);
+//     cout << result;
+//     return 0;
+// }
+
+// #include <iostream>
+// #include <cmath>
+
+// using namespace std;
+
+// int main() {
+//     double result = pow(4,2)
+//     cout << result;
+//     return 0;
+// }
+
+
+
+// double saif(double base, int power) {
+//    double base;
+//    double power;
+    
+// }
+
+// int main() {
+//     cout << "Enter the Radius: " ;
+//     double Radius;
+//     cin >> Radius;
+//     double Area_of_Circle;
+//     Area_of_Circle = 22/7 * pow(Radius,2);
+//     cout << "The Area of Circle: " << Area_of_Circle ;
+//     cout<< "Calling MyPowerFunction()";
+//     double saif = 8.33;
+//     int pow = 2;
+
+//     MyPowerFunction(saif, pow);
+//     return 0;
+// }
+
+#include <istream>
 
 using namespace std;
 
 int main() {
-    cout << "Enter Temperature in Fahrenheit: ";
-    double Fahrenheit;
-    cin >> Fahrenheit;
-    double Celsius;
-    Celsius = (Fahrenheit - 32)* 5/9;
-    cout << "Temperature in Celsius: " << Celsius;
-    return 0;
+    cout << hello world ;
+
+
 }
