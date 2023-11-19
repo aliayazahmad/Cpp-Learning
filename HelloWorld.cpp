@@ -265,12 +265,38 @@
 //     return 0;
 // }
 
-#include <istream>
+// #include <istream>
 
+// using namespace std;
+
+// int main() {
+//     cout << hello world ;
+
+
+// }
+// #include <iostream>
+// #include <cmath>
+// using namespace std;
+// double decimal;
+// decimal != 0;
+// cout << decimal ;
+
+
+#include <iostream>
+#include <cmath>
 using namespace std;
 
-int main() {
-    cout << hello world ;
+int main()  {
 
+    int decimal = 10;
+    int binary = 0;
+    int remainder, product = 1;
 
+    while (decimal != 0) {
+        remainder = decimal % 2;
+        binary += remainder * product;
+        decimal = decimal / 2;
+        product *= 10;
+    }
+    return 0;
 }
